@@ -1,0 +1,152 @@
+:root {
+  font-family: "Poppins";
+  --primary: #4ed165;
+  --font: #1a2c24;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+
+.singkatan {
+  color: var(--primary);
+}
+
+.main-title {
+  color: var(--font);
+}
+
+.offcanvas-body {
+  align-items: center;
+}
+
+/* .nav-item {
+  padding-right: 40px;
+} */
+
+.nav-link active {
+  color: var(--primary);
+}
+
+.nav-link {
+  color: #5f6d7e;
+}
+
+.nav-link:hover {
+  color: var(--primary);
+}
+
+.btndaftar {
+  align-items: center;
+  border-color: var(--primary);
+  color: var(--primary);
+  border-radius: 32px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.btnmasuk {
+  align-items: center;
+  background-color: var(--primary);
+  color: white;
+  border-radius: 32px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.btndaftar:hover {
+  background-color: #eefcf3;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.btnmasuk:hover {
+  background-color: #4ed165;
+  color: #ffffff;
+  border: 1px solid;
+}
+
+/* hero */
+
+.hero-view {
+  margin-top: 110px;
+}
+
+.hero-content h1 {
+  line-height: 60px;
+}
+
+.hero-content p {
+  color: #98a09c;
+  line-height: 38px;
+}
+
+.btncek {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: var(--primary);
+  text-decoration: none;
+  color: white;
+}
+
+.btncek:hover {
+  background-color: #eefcf3;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.hero .row hr {
+  margin: 60px auto;
+  border: none;
+  border-bottom: solid 5px #c9d9d2;
+  border-radius: 8px;
+}
+
+/* data */
+
+.data {
+  margin-bottom: 100px;
+}
+
+.data-content .sub-title {
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+
+.data .card {
+  border-width: 4px;
+  border-color: var(--primary);
+  border-radius: 16px;
+}
+
+.data .card-body img {
+  margin-bottom: 8px;
+}
+
+/* layanan kami */
+
+.carousel .carousel-indicators button {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+/* footer */
+
+.footercolo {
+  background-color: #1b443b;
+}
+.footericons a {
+  font-size: 2rem;
+  color: white;
+}
+
+.footercolo .row hr {
+  margin-top: 20px;
+  border: none;
+  border-bottom: solid 5px #c9d9d2;
+  border-radius: 8px;
+}
